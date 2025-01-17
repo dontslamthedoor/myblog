@@ -1,0 +1,29 @@
+.wrapper {
+    background-color: rgb(23, 23, 23);
+    padding: 10px;
+    color: black;
+    /* display: flow-root; (moves inner-box inside, no overlap.) */
+}
+
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    max-height: 100px;
+    font:
+            1.1rem
+            "Ubuntu Nerd Font",
+            sans-serif;
+    line-height: 1.6;
+}
+
+.box {
+    float: left;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(1, 80, 171);
+    padding: 1em;
+    color: black;
+}
